@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="477.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myjava.NoticeFXMLController">
+    <children>
+      <Label fx:id="noticeLabel" layoutX="41.0" layoutY="153.0" prefHeight="212.0" prefWidth="398.0" textFill="#1b0202" />
+      <Text layoutX="147.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOTICE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="52.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

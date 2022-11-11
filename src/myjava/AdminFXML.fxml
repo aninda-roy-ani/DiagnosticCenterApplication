@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="660.0" style="-fx-border-color: gray; -fx-border-width: 2 2 2 2;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myjava.AdminFXMLController">
+   <left>
+      <VBox prefHeight="556.0" prefWidth="179.0" style="-fx-background-color: blue;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#editOurServicesAction" prefHeight="42.0" prefWidth="179.0" text="Edit &quot;Our Services&quot;">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#editContactAction" prefHeight="42.0" prefWidth="179.0" text="Edit &quot;Contact&quot;">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#editLocationAction" prefHeight="42.0" prefWidth="179.0" text="Edit &quot;Location&quot;">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#salaryDataAction" prefHeight="42.0" prefWidth="179.0" text="Salary Data">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <HBox prefHeight="42.0" prefWidth="660.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="logOutBtn" mnemonicParsing="false" onAction="#logOutAction" prefHeight="44.0" prefWidth="660.0" style="-fx-background-color: gray;" text="Log out" textFill="#f8f6f6" />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="342.0" prefWidth="481.0" style="-fx-border-color: black; -fx-border-width: 3 3 3 3;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="173.0" layoutY="30.0" text="ADMIN">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
