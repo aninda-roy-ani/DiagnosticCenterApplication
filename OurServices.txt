@@ -1,0 +1,9 @@
+We do following diagnoses:
+
+1. Blood Test
+2. Urine Test
+3. X-Ray
+4. Ultrasonography
+5. Kidney transplant	
+6. Cardio surgery
+7. Pregnancy delivery

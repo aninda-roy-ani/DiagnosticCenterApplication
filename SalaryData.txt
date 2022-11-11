@@ -1,0 +1,3 @@
+Supervisor#75000
+Doctor#120000
+Accountant#45000
